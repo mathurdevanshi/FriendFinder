@@ -4,6 +4,7 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
             <script src="https://code.jquery.com/jquery.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </header>
     <body>
         <div class="container">
@@ -14,6 +15,18 @@
                 <h3>Let the journey begin!</h3>
             </div>
         </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Name (Required)</h4>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="panel-default">
+                <h4>Mode of Contact (Required)</h4>
+                <input type="text" id="contact" class="form-control" required>
+            </div>
+        </div>
+
 
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -178,4 +191,5 @@
         <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
             Submit</button>
     </body>
+    <script type="text/javascript" src="logic.js"></script>
 </html>
